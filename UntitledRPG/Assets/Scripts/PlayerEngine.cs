@@ -47,7 +47,7 @@ public class PlayerEngine : MonoBehaviour {
     /// This is where we read in the player's input.
     /// </summary>
     void CheckInput() {
-
+    
         _IsMoving = false;
 
         //storing built in unity inputs in variables
