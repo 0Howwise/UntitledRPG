@@ -48,6 +48,8 @@ public class PlayerEngine : MonoBehaviour {
     /// </summary>
     void CheckInput() {
     
+      
+
         _IsMoving = false;
 
         //storing built in unity inputs in variables
@@ -76,6 +78,7 @@ public class PlayerEngine : MonoBehaviour {
         /*reseting the velocity so you will only be able to move if a 
         * button is being pressed */
         _RGB.velocity = Vector2.zero;
+
         _RGB.AddForce(_PlayerForce, ForceMode2D.Impulse);
 
         SendAnimInfo();
