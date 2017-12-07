@@ -13,9 +13,9 @@ public class DialogueTrigger : MonoBehaviour {
 
     void OnTriggerEnter(Collider coll)
     {
-        if (coll.gameObject.tag == "Player" && Input.GetKeyDown("E"))
+        if (coll.gameObject.tag == "Player" && Input.GetKeyDown("space"))
         {
-
+            TriggerDialogue();
         }
     }
 

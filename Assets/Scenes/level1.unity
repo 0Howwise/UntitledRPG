@@ -551,7 +551,7 @@ Camera:
   far clip plane: 1000
   field of view: 20
   orthographic: 1
-  orthographic size: 1.28
+  orthographic size: 1.4549999
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -759,7 +759,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 445.7, y: -70}
-  m_SizeDelta: {x: 32.6, y: 28.1}
+  m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &757301856
 MonoBehaviour:
@@ -2536,6 +2536,10 @@ Prefab:
       propertyPath: _Speed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1962023600140888, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}
   m_IsPrefabParent: 0
@@ -2571,7 +2575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -363, y: 2.7}
+  m_AnchoredPosition: {x: -363, y: 0.0000030994}
   m_SizeDelta: {x: 173.4, y: 173.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1963715508
