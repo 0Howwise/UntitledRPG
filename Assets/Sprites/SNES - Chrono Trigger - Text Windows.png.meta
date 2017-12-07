@@ -1,0 +1,1322 @@
+fileFormatVersion: 2
+guid: d7278bbed673bea4a983ef238f3f4efa
+timeCreated: 1512631925
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Chrono Trigger - Text Windows_0
+    21300002: SNES - Chrono Trigger - Text Windows_1
+    21300004: SNES - Chrono Trigger - Text Windows_2
+    21300006: SNES - Chrono Trigger - Text Windows_3
+    21300008: SNES - Chrono Trigger - Text Windows_4
+    21300010: SNES - Chrono Trigger - Text Windows_5
+    21300012: SNES - Chrono Trigger - Text Windows_6
+    21300014: SNES - Chrono Trigger - Text Windows_7
+    21300016: SNES - Chrono Trigger - Text Windows_8
+    21300018: SNES - Chrono Trigger - Text Windows_9
+    21300020: SNES - Chrono Trigger - Text Windows_10
+    21300022: SNES - Chrono Trigger - Text Windows_11
+    21300024: SNES - Chrono Trigger - Text Windows_12
+    21300026: SNES - Chrono Trigger - Text Windows_13
+    21300028: SNES - Chrono Trigger - Text Windows_14
+    21300030: SNES - Chrono Trigger - Text Windows_15
+    21300032: SNES - Chrono Trigger - Text Windows_16
+    21300034: SNES - Chrono Trigger - Text Windows_17
+    21300036: SNES - Chrono Trigger - Text Windows_18
+    21300038: SNES - Chrono Trigger - Text Windows_19
+    21300040: SNES - Chrono Trigger - Text Windows_20
+    21300042: SNES - Chrono Trigger - Text Windows_21
+    21300044: SNES - Chrono Trigger - Text Windows_22
+    21300046: SNES - Chrono Trigger - Text Windows_23
+    21300048: SNES - Chrono Trigger - Text Windows_24
+    21300050: SNES - Chrono Trigger - Text Windows_25
+    21300052: SNES - Chrono Trigger - Text Windows_26
+    21300054: SNES - Chrono Trigger - Text Windows_27
+    21300056: SNES - Chrono Trigger - Text Windows_28
+    21300058: SNES - Chrono Trigger - Text Windows_29
+    21300060: SNES - Chrono Trigger - Text Windows_30
+    21300062: SNES - Chrono Trigger - Text Windows_31
+    21300064: SNES - Chrono Trigger - Text Windows_32
+    21300066: SNES - Chrono Trigger - Text Windows_33
+    21300068: SNES - Chrono Trigger - Text Windows_34
+    21300070: SNES - Chrono Trigger - Text Windows_35
+    21300072: SNES - Chrono Trigger - Text Windows_36
+    21300074: SNES - Chrono Trigger - Text Windows_37
+    21300076: SNES - Chrono Trigger - Text Windows_38
+    21300078: SNES - Chrono Trigger - Text Windows_39
+    21300080: SNES - Chrono Trigger - Text Windows_40
+    21300082: SNES - Chrono Trigger - Text Windows_41
+    21300084: SNES - Chrono Trigger - Text Windows_42
+    21300086: SNES - Chrono Trigger - Text Windows_43
+    21300088: SNES - Chrono Trigger - Text Windows_44
+    21300090: SNES - Chrono Trigger - Text Windows_45
+    21300092: SNES - Chrono Trigger - Text Windows_46
+    21300094: SNES - Chrono Trigger - Text Windows_47
+    21300096: SNES - Chrono Trigger - Text Windows_48
+    21300098: SNES - Chrono Trigger - Text Windows_49
+    21300100: SNES - Chrono Trigger - Text Windows_50
+    21300102: SNES - Chrono Trigger - Text Windows_51
+    21300104: SNES - Chrono Trigger - Text Windows_52
+    21300106: SNES - Chrono Trigger - Text Windows_53
+    21300108: SNES - Chrono Trigger - Text Windows_54
+    21300110: SNES - Chrono Trigger - Text Windows_55
+    21300112: SNES - Chrono Trigger - Text Windows_56
+    21300114: SNES - Chrono Trigger - Text Windows_57
+    21300116: SNES - Chrono Trigger - Text Windows_58
+    21300118: SNES - Chrono Trigger - Text Windows_59
+    21300120: SNES - Chrono Trigger - Text Windows_60
+    21300122: SNES - Chrono Trigger - Text Windows_61
+    21300124: SNES - Chrono Trigger - Text Windows_62
+    21300126: SNES - Chrono Trigger - Text Windows_63
+    21300128: SNES - Chrono Trigger - Text Windows_64
+    21300130: SNES - Chrono Trigger - Text Windows_65
+    21300132: SNES - Chrono Trigger - Text Windows_66
+    21300134: SNES - Chrono Trigger - Text Windows_67
+    21300136: SNES - Chrono Trigger - Text Windows_68
+    21300138: SNES - Chrono Trigger - Text Windows_69
+    21300140: SNES - Chrono Trigger - Text Windows_70
+    21300142: SNES - Chrono Trigger - Text Windows_71
+    21300144: SNES - Chrono Trigger - Text Windows_72
+    21300146: SNES - Chrono Trigger - Text Windows_73
+    21300148: SNES - Chrono Trigger - Text Windows_74
+    21300150: SNES - Chrono Trigger - Text Windows_75
+    21300152: SNES - Chrono Trigger - Text Windows_76
+    21300154: SNES - Chrono Trigger - Text Windows_77
+    21300156: SNES - Chrono Trigger - Text Windows_78
+    21300158: SNES - Chrono Trigger - Text Windows_79
+    21300160: SNES - Chrono Trigger - Text Windows_80
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 704
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 768
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 768
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_3
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 768
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 736
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 728
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 736
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 712
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 712
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 712
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 616
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 680
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_12
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 680
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_13
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 680
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 648
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_16
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 648
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 624
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_18
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 624
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 624
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 528
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 592
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_22
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 592
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_23
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 592
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_24
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 560
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 552
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_26
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 560
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 536
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_28
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 536
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_29
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 536
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 440
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_31
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 504
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 504
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_33
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 504
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 472
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_35
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_36
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 472
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 448
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_38
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 448
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_39
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 448
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_40
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 352
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 416
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_42
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 416
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_43
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 416
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 384
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 376
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_46
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 384
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_47
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 360
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_48
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 360
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_49
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 360
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_50
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 264
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_52
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 328
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_53
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 328
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_54
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 296
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_55
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_56
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 296
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_57
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 272
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_58
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 272
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_59
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 272
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 176
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_61
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 240
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_62
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 240
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_63
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 240
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_65
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_66
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 208
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_67
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 184
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_68
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 184
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_69
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 184
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_70
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 88
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_71
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_72
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 152
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_73
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 152
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_74
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 120
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_75
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_76
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 120
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_77
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_78
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 96
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_79
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 96
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: SNES - Chrono Trigger - Text Windows_80
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 4
+        width: 208
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

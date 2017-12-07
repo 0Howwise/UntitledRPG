@@ -6,10 +6,15 @@ public class DialogueManager : MonoBehaviour {
 
     private Queue<string> sentences;
 
-	// Use this for initialization
-	void Start () {
+    //creating a queue for sentences 
+    void Start() {
         sentences = new Queue<string>();
-	}
-	
+    }
+
+ 
+    public void StartDialogue (Dialogue dialogue)
+    {
+        Debug.Log("Starting conversation with" + dialogue.name);
+    }
 
 }
