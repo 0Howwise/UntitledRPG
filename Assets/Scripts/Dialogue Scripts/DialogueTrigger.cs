@@ -12,4 +12,12 @@ public class DialogueTrigger : MonoBehaviour
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 
     }
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            TriggerDialogue();
+        }
+    }
 }
