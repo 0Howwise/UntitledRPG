@@ -616,10 +616,10 @@ GameObject:
   - component: {fileID: 643033084}
   - component: {fileID: 643033086}
   - component: {fileID: 643033087}
-  - component: {fileID: 643033089}
   - component: {fileID: 643033088}
+  - component: {fileID: 643033089}
   m_Layer: 8
-  m_Name: Robo_0
+  m_Name: Robo
   m_TagString: Npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -658,7 +658,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6e4e60b81a299454580aded397df1721, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -736,9 +736,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Jeff
+    name: Robo
     sentences:
-    - Hi
+    - Hello! My name is Robo.
+    - I was create and left here by Howard, the making of the this game.
+    - There isn't much here but there will be soon
 --- !u!61 &643033089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -751,7 +753,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0020315424, y: 0.10360885}
+  m_Offset: {x: 0.000000007450581, y: 0.1041885}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -762,7 +764,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2318738, y: 0.12497139}
+  m_Size: {x: 0.21474217, y: 0.11478007}
   m_EdgeRadius: 0
 --- !u!1 &757301854
 GameObject:
@@ -2611,15 +2613,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4397299620068660, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4397299620068660, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4397299620068660, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4397299620068660, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}
       propertyPath: m_LocalRotation.w
@@ -2663,6 +2665,10 @@ Prefab:
     - target: {fileID: 1962023600140888, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4397299620068660, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3711dd1c6a367ce42a5d72f9c7a4ed50, type: 2}

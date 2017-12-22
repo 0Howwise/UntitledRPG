@@ -22,7 +22,8 @@ public class PlayerEngine : MonoBehaviour {
     private Animator _Anim;
     private BoxCollider2D _BoxCollider;
     private bool _IsMoving = false;
-
+    //DialogueManager DialogueManager = gameObject.GetComponent<DialogueManager>()
+   
     /// <summary>
     /// initializing in a awake function in order to avoid crashing when changing variable when it isn't finished initializing yet
     /// </summary>
@@ -47,8 +48,6 @@ public class PlayerEngine : MonoBehaviour {
     /// This is where we read in the player's input.
     /// </summary>
     void CheckInput() {
-    
-      
 
         _IsMoving = false;
 
@@ -56,7 +55,7 @@ public class PlayerEngine : MonoBehaviour {
         var _H = Input.GetAxisRaw("Horizontal");
         var _V = Input.GetAxisRaw("Vertical");
 
-        //If h or v isn't equal to 0, than the player is moving 
+        //If horizontal or vertical values aren't equal to 0, than the player is moving 
         if (_H < 0 || _H > 0 || _V < 0 || _V > 0)
         {
             _IsMoving = true;
