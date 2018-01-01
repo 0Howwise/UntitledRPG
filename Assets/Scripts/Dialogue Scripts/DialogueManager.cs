@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
 
     public Text nameText;
     public Text dialogueText;
+     
 
     public Animator animator;
 
@@ -21,7 +22,6 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-       
         animator.SetBool("IsOpen", true);
 
         nameText.text = dialogue.name;
@@ -65,6 +65,7 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        FindObjectOfType<DialogueTrigger>().TriggerDialogueIsRunning = false;
     }
 
 }

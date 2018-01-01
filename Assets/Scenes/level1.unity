@@ -739,8 +739,9 @@ MonoBehaviour:
     name: Robo
     sentences:
     - Hello! My name is Robo.
-    - I was create and left here by Howard, the making of the this game.
-    - There isn't much here but there will be soon
+    - I was created and left here by Howard, the maker of the this game.
+    - There isn't much here but there will be soon.
+  TriggerDialogurIsRunning: 0
 --- !u!61 &643033089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2691,7 +2692,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1648402195
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2728,6 +2729,7 @@ MonoBehaviour:
     - Hello! My name is Robo.
     - I was create and left here by Howard, the making of the this game.
     - There isn't much here but there will be soon
+  TriggerDialogurIsRunning: 0
 --- !u!114 &1648402197
 MonoBehaviour:
   m_ObjectHideFlags: 0

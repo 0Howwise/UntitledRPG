@@ -8,11 +8,12 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
-    public bool TriggerDialogurIsRunning = false;
+    public bool TriggerDialogueIsRunning = false;
 
     public void TriggerDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        TriggerDialogueIsRunning = true;
     }
 
   
@@ -21,24 +22,35 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            TriggerDialogue();
-            TriggerDialogurIsRunning = true;
+            if (TriggerDialogueIsRunning == false)
+            {
+                TriggerDialogue();
+            }
+            else
+            {
+                FindObjectOfType<DialogueManager>().DisplayNextSentence();
+                TriggerDialogueIsRunning = false;
+       
+            }
         }
+       
     }
 
     //closing the dialogue if the player walks away
     public void OnTriggerExit2D(Collider2D collider)
     {
         FindObjectOfType<DialogueManager>().EndDialogue();
+        TriggerDialogueIsRunning = false;
+        
     }
     
-    public void TriggerNextSentence()
+    /*public void TriggerNextSentence()
     {
-        if (Input.GetKeyDown(KeyCode.E) && TriggerDialogurIsRunning == false)
+        if (Input.GetKeyDown(KeyCode.E) && TriggerDialogueIsRunning == false)
         {
-            //FindObjectOfType<DialogueManager>().DisplayNextSentence();\
+            FindObjectOfType<DialogueManager>().DisplayNextSentence();
             Debug.Log("MEMEME");
         }
     }
-    
+    */
 }
