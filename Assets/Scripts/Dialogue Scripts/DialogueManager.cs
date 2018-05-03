@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
 
     public Text nameText;
     public Text dialogueText;
-     
+    public bool StillPrinting = false;
 
     public Animator animator;
 
@@ -57,9 +57,12 @@ public class DialogueManager : MonoBehaviour
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray())
         {
+            StillPrinting = true;
             dialogueText.text += letter;
             yield return null;
+            
         }
+        StillPrinting = true;
     }
 
     public void EndDialogue()

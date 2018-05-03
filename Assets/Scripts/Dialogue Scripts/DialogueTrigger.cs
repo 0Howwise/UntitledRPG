@@ -16,7 +16,7 @@ public class DialogueTrigger : MonoBehaviour
         TriggerDialogueIsRunning = true;
     }
 
-  
+
     //allowing the player to approach the NPC and talk to them by pressing the E key
     public void OnTriggerStay2D(Collider2D other)
     {
@@ -26,31 +26,22 @@ public class DialogueTrigger : MonoBehaviour
             {
                 TriggerDialogue();
             }
-            else
+            else if (FindObjectOfType<DialogueManager>().StillPrinting == true)
             {
                 FindObjectOfType<DialogueManager>().DisplayNextSentence();
-                TriggerDialogueIsRunning = false;
-       
             }
         }
-       
+
     }
+
+    //I was created and left here by Howard, the maker of the this game.
 
     //closing the dialogue if the player walks away
     public void OnTriggerExit2D(Collider2D collider)
     {
         FindObjectOfType<DialogueManager>().EndDialogue();
         TriggerDialogueIsRunning = false;
-        
+
     }
-    
-    /*public void TriggerNextSentence()
-    {
-        if (Input.GetKeyDown(KeyCode.E) && TriggerDialogueIsRunning == false)
-        {
-            FindObjectOfType<DialogueManager>().DisplayNextSentence();
-            Debug.Log("MEMEME");
-        }
-    }
-    */
 }
+   
