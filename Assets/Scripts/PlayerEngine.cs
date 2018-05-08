@@ -10,33 +10,33 @@ using UnityEngine;
 public class PlayerEngine : MonoBehaviour {
 
     //player movement variable
-    public float _Speed = 4;
+    public float Speed = 4;
 
     /// <summary>
     /// This 
     /// </summary>
     [SerializeField]
-    private Vector2 _DeltaForce;
-    private Vector2 _LastDirection;
-    private Rigidbody2D _RGB;
-    private Animator _Anim;
-    private BoxCollider2D _BoxCollider;
-    private bool _IsMoving = false;
+    private Vector2 DeltaForce;
+    private Vector2 LastDirection;
+    private Rigidbody2D RGB;
+    private Animator Anim;
+    private BoxCollider2D BoxCollider;
+    private bool IsMoving = false;
     //DialogueManager DialogueManager = gameObject.GetComponent<DialogueManager>()
    
     /// <summary>
     /// initializing in a awake function in order to avoid crashing when changing variable when it isn't finished initializing yet
     /// </summary>
     void Awake() {
-        _Anim = GetComponent<Animator>();
-        _RGB = GetComponent<Rigidbody2D>();
-        _BoxCollider = GetComponent<BoxCollider2D>();
+        Anim = GetComponent<Animator>();
+        RGB = GetComponent<Rigidbody2D>();
+        BoxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Use this for initialization
     void Start() {
-        _RGB.gravityScale = 0;
-        _RGB.constraints = RigidbodyConstraints2D.FreezeRotation;
+        RGB.gravityScale = 0;
+        RGB.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
     // Update is called once per frame
@@ -49,36 +49,36 @@ public class PlayerEngine : MonoBehaviour {
     /// </summary>
     void CheckInput() {
 
-        _IsMoving = false;
+        IsMoving = false;
 
         //storing built in unity inputs in variables
-        var _H = Input.GetAxisRaw("Horizontal");
-        var _V = Input.GetAxisRaw("Vertical");
+        var Hor = Input.GetAxisRaw("Horizontal");
+        var vert = Input.GetAxisRaw("Vertical");
 
         //If horizontal or vertical values aren't equal to 0, than the player is moving 
-        if (_H < 0 || _H > 0 || _V < 0 || _V > 0)
+        if (Hor < 0 || Hor > 0 || vert < 0 || vert > 0)
         {
-            _IsMoving = true;
+            IsMoving = true;
 
-            if(!_BoxCollider.IsTouchingLayers(Physics2D.AllLayers))
-            _LastDirection = _RGB.velocity;
+            if(!BoxCollider.IsTouchingLayers(Physics2D.AllLayers))
+            LastDirection = RGB.velocity;
         }
 
-        _DeltaForce = new Vector2(_H, _V);
-        CalculateMovement(_DeltaForce * _Speed);
+        DeltaForce = new Vector2(Hor, vert);
+        CalculateMovement(DeltaForce * Speed);
     }
 
     /// <summary>
     /// This is the function where we add force to the player. 
     /// </summary>
-    /// <param name="_PlayerForce"></param>
-    void CalculateMovement(Vector2 _PlayerForce)
+    /// <param name="PlayerForce"></param>
+    void CalculateMovement(Vector2 PlayerForce)
     {
         /*reseting the velocity so you will only be able to move if a 
         * button is being pressed */
-        _RGB.velocity = Vector2.zero;
+        RGB.velocity = Vector2.zero;
 
-        _RGB.AddForce(_PlayerForce, ForceMode2D.Impulse);
+        RGB.AddForce(PlayerForce, ForceMode2D.Impulse);
 
         SendAnimInfo();
     }
@@ -90,12 +90,12 @@ public class PlayerEngine : MonoBehaviour {
     void SendAnimInfo()
     {
         //what ever is the _RGB velocity . x will be read on to the animator same with y
-        _Anim.SetFloat("XSpeed", _RGB.velocity.x);
-        _Anim.SetFloat("YSpeed", _RGB.velocity.y);
+        Anim.SetFloat("XSpeed", RGB.velocity.x);
+        Anim.SetFloat("YSpeed", RGB.velocity.y);
 
-        _Anim.SetFloat("LastX", _LastDirection.x);
-        _Anim.SetFloat("LastY", _LastDirection.y);
+        Anim.SetFloat("LastX", LastDirection.x);
+        Anim.SetFloat("LastY", LastDirection.y);
 
-        _Anim.SetBool("IsMoving", _IsMoving);
+        Anim.SetBool("IsMoving", IsMoving);
     }
 }
