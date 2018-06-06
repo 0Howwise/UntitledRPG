@@ -11,6 +11,7 @@ public class PlayerEngine : MonoBehaviour {
 
     //player movement variable
     public float Speed = 4;
+    protected Joystick joystick;
 
     /// <summary>
     /// This 
@@ -21,7 +22,7 @@ public class PlayerEngine : MonoBehaviour {
     private Rigidbody2D RGB;
     private Animator Anim;
     private BoxCollider2D BoxCollider;
-    private bool IsMoving = false;
+    private static bool IsMoving = false;
     //DialogueManager DialogueManager = gameObject.GetComponent<DialogueManager>()
    
     /// <summary>
@@ -37,11 +38,13 @@ public class PlayerEngine : MonoBehaviour {
     void Start() {
         RGB.gravityScale = 0;
         RGB.constraints = RigidbodyConstraints2D.FreezeRotation;
+        joystick = FindObjectOfType<Joystick>();
     }
 
     // Update is called once per frame
     void Update() {
         CheckInput();
+        //RGB.velocity = new Vector2(joystick.Horizontal * Speed, joystick.Vertical * Speed);
     }
 
     /// <summary>
@@ -52,11 +55,15 @@ public class PlayerEngine : MonoBehaviour {
         IsMoving = false;
 
         //storing built in unity inputs in variables
-        var Hor = Input.GetAxisRaw("Horizontal");
-        var vert = Input.GetAxisRaw("Vertical");
+        //var Hor = Input.GetAxisRaw("Horizontal");
+        //var Vert = Input.GetAxisRaw("Vertical");
+
+        //getting input directly from the onscreen buttons 
+        var Hor = joystick.Horizontal;
+        var Vert = joystick.Vertical;
 
         //If horizontal or vertical values aren't equal to 0, than the player is moving 
-        if (Hor < 0 || Hor > 0 || vert < 0 || vert > 0)
+        if (Hor < 0 || Hor > 0 || Vert < 0 || Vert > 0)
         {
             IsMoving = true;
 
@@ -64,7 +71,7 @@ public class PlayerEngine : MonoBehaviour {
             LastDirection = RGB.velocity;
         }
 
-        DeltaForce = new Vector2(Hor, vert);
+        DeltaForce = new Vector2(Hor, Vert);
         CalculateMovement(DeltaForce * Speed);
     }
 
