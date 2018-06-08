@@ -7,7 +7,9 @@ public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
     public bool TriggerDialogueIsRunning = false;
-   
+    protected AButton AButton;
+    public Button _button;
+
     //activating the dialogue box and setting the diaglogue runing bool to to true. to avoid looping the cycle of running.
     
     public void TriggerDialogue()
@@ -20,7 +22,11 @@ public class DialogueTrigger : MonoBehaviour
     //allowing the player to approach the NPC and talk to them by pressing the E key
     public void OnTriggerStay2D(Collider2D other)
     {
-        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0))
+        AButton = FindObjectOfType<AButton>();
+
+        //Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0) ||
+
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0) || AButton.Pressed)
         {
             if (TriggerDialogueIsRunning == false)
             {
