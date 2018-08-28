@@ -10,33 +10,31 @@ public class DialogueTrigger : MonoBehaviour
     protected AButton AButton;
     public Button _button;
 
+
+
+    public void Start()
+    {
+        AButton = FindObjectOfType<AButton>();
+    }
+
     //activating the dialogue box and setting the diaglogue runing bool to to true. to avoid looping the cycle of running.
-    
     public void TriggerDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         TriggerDialogueIsRunning = true;
     }
 
-
     //allowing the player to approach the NPC and talk to them by pressing the E key
-    public void OnTriggerStay2D(Collider2D other)
-    {
-        AButton = FindObjectOfType<AButton>();
-
-        //Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0) ||
-
-        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0) || AButton.Pressed)
-        {
-            if (TriggerDialogueIsRunning == false)
-            {
+    public void OnTriggerStay2D(Collider2D other) {
+        if (Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0) || AButton.Pressed) {
+            if (TriggerDialogueIsRunning == false) {
                 TriggerDialogue();
             }
-            else if (FindObjectOfType<DialogueManager>().StillPrinting == true)
-            {
+            else if (FindObjectOfType<DialogueManager>().StillPrinting == true) {
+
                 FindObjectOfType<DialogueManager>().DisplayNextSentence();
                 TriggerDialogueIsRunning = true;
-            }
+            } 
         }
     }
 

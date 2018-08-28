@@ -10,8 +10,9 @@ using UnityEngine;
 public class PlayerEngine : MonoBehaviour {
 
     //player movement variable
-    public float Speed = 4;
+    public int Speed = 4;
     protected Joystick joystick;
+    //protected Joybutton joybutton;
 
     /// <summary>
     /// This 

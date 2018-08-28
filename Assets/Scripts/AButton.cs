@@ -24,7 +24,7 @@ public class AButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
     {
         Pressed = true;
     }
-
+    
     public void OnPointerUp(PointerEventData eventData)
     {
         Pressed = false;
