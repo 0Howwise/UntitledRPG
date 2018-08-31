@@ -36,9 +36,6 @@ public class DialogueManager : MonoBehaviour
         DisplayNextSentence();
     }
 
-
-
-
     public void DisplayNextSentence()
     {
         if (sentences.Count == 0)
@@ -66,7 +63,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void EndDialogue()
-    {
+    { 
         animator.SetBool("IsOpen", false);
         FindObjectOfType<DialogueTrigger>().TriggerDialogueIsRunning = false;
     }
