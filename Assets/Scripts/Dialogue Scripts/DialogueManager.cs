@@ -9,7 +9,7 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     public bool StillPrinting = false;
-
+    public Image npcImageSprite;
     public Animator animator;
 
     private Queue<string> sentences;
