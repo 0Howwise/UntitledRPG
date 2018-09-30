@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     public bool StillPrinting = false;
     public Image npcImageSprite;
     public Animator animator;
+    public GameObject currentDialogueTrigger;
 
     private Queue<string> sentences;
 
@@ -20,8 +21,10 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue, GameObject inDialogueTrigger)
     {
+        currentDialogueTrigger = inDialogueTrigger;
+
         animator.SetBool("IsOpen", true);
 
         nameText.text = dialogue.name;
@@ -65,7 +68,8 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     { 
         animator.SetBool("IsOpen", false);
-        FindObjectOfType<DialogueTrigger>().TriggerDialogueIsRunning = false;
+        //FindObjectOfType<DialogueTrigger>().TriggerDialogueIsRunning = false;
+        currentDialogueTrigger.GetComponent<DialogueTrigger>().TriggerDialogueIsRunning = false;
     }
 
 }
