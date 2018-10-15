@@ -15,7 +15,7 @@ public class PlayerEngine : MonoBehaviour {
     //protected Joybutton joybutton;
 
     /// <summary>
-    /// This 
+    /// This sets up the componets we need for the player
     /// </summary>
     [SerializeField]
     private Vector2 DeltaForce;
