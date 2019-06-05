@@ -22,6 +22,7 @@ public class AButton : MonoBehaviour, /*IPointerUpHandler,*/ IPointerDownHandler
     //only used if called on button on click in unity inspector
     public void PressA()
     {
+        //stupid coomment
         Pressed = true;
     }
 
