@@ -28,6 +28,7 @@ public class BButton : MonoBehaviour, /*IPointerUpHandler,*/ IPointerDownHandler
     public void OnPointerDown(PointerEventData eventData)
     {
         Pressed = true;
+
     }
 
     //public void OnPointerUp(PointerEventData eventData)
